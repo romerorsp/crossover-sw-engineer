@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- tem is a short for Test Exam Maker. -->
+<html ng-app="tem">
+    <head>
+        <title page-title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- bower:bootstrap -->
+        <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css" />
+        
+        <!-- bower:js -->
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!-- endbower -->
+        
+        <script src="js/script.js"></script>
+        <script src="js/config.js"></script>
+        <script src="js/controllers.js"></script>
+        <script src="js/modules.js"></script>
+    </head>
+    
+    <body  ng-controller="TEMController">
+    	<!--[if lt IE 7]>
+		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+		    your browser</a> to improve your experience.</p>
+		<![endif]-->
+		
+		<!-- Wrapper-->
+		
+		<div ui-view="main"></div>
+		
+		
+		<!-- End wrapper-->
+    </body>
+</html>

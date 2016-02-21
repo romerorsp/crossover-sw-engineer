@@ -1,0 +1,182 @@
+[
+	{
+		"type": "SINGLE",
+		"shortName": "FIRSTQ",
+		"ask": "What is JAX-RS?",
+		"options": [
+			{
+				"description": "A short for Java Extension Result Sets",
+				"shortName": "FIRSTO",
+				"correct": false
+			},
+			{
+				"description": "The Restful Services' specification",
+				"shortName": "SECONO",
+				"correct": true
+			},
+			{
+				"description": "Name of food",
+				"shortName": "THIRDO",
+				"correct": false
+			},
+			{
+				"description": "A Math concept",
+				"shortName": "FOURO",
+				"correct": false
+			}
+		]
+	},
+	{
+		"type": "SINGLE",
+		"shortName": "Q2",
+		"ask": "Question 2",
+		"options": [
+			{
+				"description": "Answer 1",
+				"shortName": "Q2A1",
+				"correct": true
+			},
+			{
+				"description": "Answer 2",
+				"shortName": "Q2A2",
+				"correct": false
+			}
+		]
+	},
+	{
+		"type": "MULTIPLE",
+		"shortName": "Q3",
+		"ask": "Question 3",
+		"options": [
+			{
+				"description": "Answer 1",
+				"shortName": "Q3A1",
+				"correct": true
+			},
+			{
+				"description": "Answer 2",
+				"shortName": "Q3A2",
+				"correct": true
+			}
+		]
+	},
+	{
+		"type": "SINGLE",
+		"shortName": "Q4",
+		"ask": "Question 4",
+		"options": [
+			{
+				"description": "Answer 1",
+				"shortName": "Q4A1",
+				"correct": false
+			},
+			{
+				"description": "Answer 2",
+				"shortName": "Q4A2",
+				"correct": true
+			}
+		]
+	},
+	{
+		"type": "SINGLE",
+		"shortName": "Q5",
+		"ask": "Question 5",
+		"options": [
+			{
+				"description": "Answer 1",
+				"shortName": "Q5A1",
+				"correct": true
+			},
+			{
+				"description": "Answer 2",
+				"shortName": "Q5A2",
+				"correct": false
+			}
+		]
+	},
+	{
+		"type": "SINGLE",
+		"shortName": "Q6",
+		"ask": "Question 6",
+		"options": [
+			{
+				"description": "Answer 1",
+				"shortName": "Q6A1",
+				"correct": true
+			},
+			{
+				"description": "Answer 2",
+				"shortName": "Q6A2",
+				"correct": false
+			}
+		]
+	},
+	{
+		"type": "SINGLE",
+		"shortName": "Q7",
+		"ask": "Question 7",
+		"options": [
+			{
+				"description": "Answer 1",
+				"shortName": "Q7A1",
+				"correct": true
+			},
+			{
+				"description": "Answer 2",
+				"shortName": "Q7A2",
+				"correct": false
+			}
+		]
+	},
+	{
+		"type": "SINGLE",
+		"shortName": "Q8",
+		"ask": "Question 8",
+		"options": [
+			{
+				"description": "Answer 1",
+				"shortName": "Q8A1",
+				"correct": true
+			},
+			{
+				"description": "Answer 2",
+				"shortName": "Q8A2",
+				"correct": false
+			}
+		]
+	},
+	{
+		"type": "SINGLE",
+		"shortName": "Q9",
+		"ask": "Question 9",
+		"options": [
+			{
+				"description": "Answer 1",
+				"shortName": "Q9A1",
+				"correct": true
+			},
+			{
+				"description": "Answer 2",
+				"shortName": "Q9A2",
+				"correct": false
+			}
+		]
+	},
+	{
+		"type": "SINGLE",
+		"shortName": "Q10",
+		"ask": "Question 10",
+		"options": [
+			{
+				"description": "Answer 1",
+				"shortName": "Q10A1",
+				"correct": true
+			},
+			{
+				"description": "Answer 2",
+				"shortName": "Q10A2",
+				"correct": false
+			}
+		]
+	}
+]

@@ -1,0 +1,18 @@
+<div>
+	<div class="screen">
+		<div class="top">
+		    <button ng-click="receiveGreets()">Click here to reveive the greets from the server</button>
+			<div class="clear"></div>
+		    <div class="greet">
+		    	<span>{{serverGreet}}</span>
+		    </div>
+		    <div class="userInput">
+		    	<div class="clear"></div>
+				<hr>
+		    	<input type="text" ng-model="userInput.greet" placeholder="Type your Greets to the server =)" size="50" required ng-enter="sendGreets()"/>
+		    	<button ng-click="sendGreets()">Click here to send greets to the server</button>
+		    	<span class="message">{{message}}</span>
+		    </div>
+		</div>
+	</div>
+</div>

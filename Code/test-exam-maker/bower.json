@@ -1,0 +1,23 @@
+{
+  "name": "test-exam-maker",
+  "version": "0.0.0",
+  "authors": [
+    "romerorsp <romerorr16@msn.com>"
+  ],
+  "description": "Online Test Exam Maker",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "bootstrap": "~3.3.5"
+  }
+}

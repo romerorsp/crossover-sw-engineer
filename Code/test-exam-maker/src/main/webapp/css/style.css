@@ -1,0 +1,59 @@
+@CHARSET "UTF-8";
+
+.screen {
+	font-family: Gadget, sans-serif;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	/* bring your own prefixes */
+	transform: translate(-50%, -50%);
+}
+
+.screen .top {
+	width: 500px;
+	margin: 20px;
+	padding: 5px;
+	text-align: center;
+	background: #F9F9F9;
+}
+
+.screen .top button {
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.screen .top input[type="text"] {
+	width: 100%;
+	height: 30px;
+	text-align: center;
+}
+
+.screen .top hr {
+	margin-top: 15px;
+}
+
+.screen .top .userInput span {
+	width: 100%;
+	float: right;
+	margin-top: 25px;
+	text-align: right;
+	font-family: Times;
+	font-size: 13px;
+	color: crimson;
+}
+
+.screen .top .greet {
+	height: 68px;
+	overflow-x: scroll;
+	font-family: monospace;
+}
+
+.screen .top .greet span {
+	width: 100%;
+	vertical-align: middle;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 58px;
+	word-wrap: normal;
+}
