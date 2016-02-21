@@ -87,7 +87,7 @@
 		
 		<fileSet>
 			<directory>${project.basedir}/Code/test-exam-maker/target/</directory>
-			<outputDirectory>${project.basedir}/Deployment</outputDirectory>
+			<outputDirectory>Deployment</outputDirectory>
 			<includes>
 				<include>test-exam-maker.jar</include>
 			</includes>
