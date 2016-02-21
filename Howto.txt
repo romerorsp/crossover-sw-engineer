@@ -1,0 +1,4 @@
+in order to build the project, please read the README.md in the test-exam-maker project.
+The database structure will automatically be created by the JPA API during the system loading.
+Information about the user/pwd you can find in the file application.properties of the spring-boot (test-exam-maker).
+you can easily execute the system by running "java -jar Deployment/test-exam-maker.jar" 
